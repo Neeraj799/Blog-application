@@ -23,7 +23,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/blogs/create',(req, res) => {
-    res.render('create',{ title: 'Create'})
+    res.render('create',{ title: 'Create'});
 });
 
 //404 page
